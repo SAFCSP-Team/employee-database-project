@@ -1,4 +1,4 @@
-## Employee Databases Project
+## Employee Database Project
 
 ### Objective 
 Capstone project for Python 101
