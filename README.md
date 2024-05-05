@@ -35,7 +35,7 @@ Create an `Employee Management System` that allows users to perform various oper
    - Create a function `update_employee` that takes the **database**(dictionary), **employee ID**, **new name**,**new salary** ,and **new position** as parameters.
    - Create a list`new_data` containing the new position, new salary, and new name.
    - Convert the `new_data` to a tuple.
-   - Using the **employee ID **(key) Update the employee's information by assigning the tuple.
+   - Using the **employee ID**(key) Update the employee's information by assigning the tuple.
    - Print a confirmation message and return the database.
      
 7. User Interface:
@@ -49,7 +49,7 @@ Create an `Employee Management System` that allows users to perform various oper
            - If not empty, print the information. Else print an error message.
        - If the choice is 4, call the `display_employees()` function to print the database.
        - If the choice is '5', Check if the employee_ID is in the database.
-           - If found, ask the user to enter the employee information(name, position, salary) the name and position should be converted to a title case then call the `update_employee()` function.
+           - If found, ask the user to enter the employee information(name, position, salary) the name and position should be converted to a title case and the salary should be an absolute value then call the `update_employee()` function.
            - If it is not found, print an error message.
 
        - If the choice is '6', print "Thank you for using the program. Goodbye!" and break out of the loop.
