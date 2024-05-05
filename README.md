@@ -7,7 +7,7 @@ Create an `Employee Management System` that allows users to perform various oper
 ### Implementation
 1. Data Structure:
    - The employee data should be stored in a dictionary `employee_database`.
-   - The `employee_database` should use the employee `position` as the key and store employee information as a tuple (employee ID, employee name).
+   - The `employee_database` should use the employee **position** as the `key` and store **employee information in a tuple** (employee ID, employee name) as `value`.
 
 2. Adding an Employee:
    - Create a function `add_employee` that takes the database and employee details (employee ID, employee name) as parameters.
