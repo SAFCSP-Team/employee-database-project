@@ -55,4 +55,3 @@ Create an `Employee Management System` that allows users to perform various oper
        - If the choice is '6', print "Thank you for using the program. Goodbye!" and break out of the loop.
        - If the user enters an invalid choice, print "Invalid choice. Please try again."
 
-![edp@4x](https://github.com/SAFCSP-Team/employee-databases-project/assets/148013077/1f10e4a7-a04d-4558-a374-21f14151e713)
