@@ -5,38 +5,37 @@ Capstone project for Python 101
 ### Problem
 Create an `Employee Management System` that allows users to perform various operations such as adding employees, removing employees, searching for employees, updating employee data, and displaying all employees in the database.
 ### Implementation
-1. Data Structure:
+1. Data Container:
    - The employee data should be stored in a dictionary `employee_database`.
    - The `employee_database` should use the employee **position** as the `key` and store **employee information in a tuple** (employee ID, employee name) as `value`.
 
 2. Adding an Employee:
-   - Create a function `add_employee` that takes the database and employee details (employee ID, employee name) as parameters.
-   - The employee name and position should be converted to a title case.
-   - The function should add the employee to the database(dictionary) using the employee position as the key and store a tuple containing employee information (employee ID, employee name).
-   - Print a confirmation message after adding the employee and return the database.
+   - Create a function `add_employee` that takes the **database**(dictionary) and employee details **(employee ID, employee name)** as parameters.
+   - The employee `name` and `position` should be **converted to a title case**.
+   - The function should add the employee to the database using the employee **position as the key** and store a tuple containing employee information **(employee ID, employee name) as value**.
+   - Print a confirmation message and return the database.
 
 3. Removing an Employee:
-   - Create a function `remove_employee` that takes the database(dictionary) and the employee position to be removed as parameters.
+   - Create a function `remove_employee` that takes the **database**(dictionary) and the **employee position** as parameters.
    - Check if the employee position exists in the database.
-   - If found, remove the employee from the database.
-   - Print a confirmation message after removing the employee and return the database.
-   - If the employee position is not found in the database, print an error message and return the database.
+   - **If found**, remove the employee from the database, print a confirmation message, and return the database.
+   - If the employee position **is not found** in the database, print an error message and return the database.
      
 4. Searching for an Employee:
-   - Create a function `search_employee` that takes the database and the employee position to search for as parameters.
+   - Create a function `search_employee` that takes the **database**(dictionary) and the **employee position** as parameters.
    - Check if the employee position exists in the database.
    - If found, return the employee data.
      
 5. Displaying Employees:
-   - Create a function `display_employees` that takes the database as a parameter.
+   - Create a function `display_employees` that takes the **database**(dictionary) as a parameter.
    - Iterate over the database and print each employee's position, ID, and name using (f-string) to create formatted output.
    
 6. Updating Employee Data:
-   - Create a function `update_employee` that takes the database, employee position, new name, and new ID as parameters.
-   - Convert the tuple that contains employee information to the list.
-   - Using the list index update the employee's name and ID with the new values.
-   - Return the list to its original form, which is a tuple, and store it in the database. 
-   - Print a confirmation message after updating the employee and return the database.
+   - Create a function `update_employee` that takes the **database**(dictionary), **employee position**, **new name**, and **new ID** as parameters.
+   - Create a list`new_data` containing the new ID and new name.
+   - Convert the `new_data` to a tuple.
+   - Using the **employee position**(key) Update the employee's information by assigning the tuple.
+   - Print a confirmation message and return the database.
      
 7. User Interface:
    - Create a `while` loop to provide a menu-based interface for interacting with the system.
