@@ -1,7 +1,7 @@
 ## Employee Database Project
 
 ### Objective 
-Capstone project for Python 101
+Determine if the learner has completed all requirements for Python 101 and is ready to progress to a higher level by successfully building an integrated application
 ### Problem
 Create an `Employee Management System` that allows users to perform various operations such as adding employees, removing employees, searching for employees, updating employee data, and displaying all employees in the database.
 ### Implementation
