@@ -42,9 +42,9 @@ Create an `Employee Management System` that allows users to perform various oper
    - If the choice is between 1 and 4 ask the user to enter the employee ID and check if the ID exists by calling the `id_exists` function.
       - If the ID exists and the choice is not 1 call the appropriate function and pass the required parameters, Based on the user's choice.
         
-             - If the choice is '2', call the `remove_employee()` function, using keyword arguments.
-             - If the choice is '3', create a tuple containing the information of the employee ID in the database and print the data.
-             - If the choice is '4', ask the user to enter the employee information(name, position, salary) the name and position should be converted to a title case and the salary should be an absolute value and call the `update_employee()` function.
+          1. If the choice is '2', call the `remove_employee()` function, using keyword arguments.
+          2. If the choice is '3', create a tuple containing the information of the employee ID in the database and print the data.
+          3. If the choice is '4', ask the user to enter the employee information(name, position, salary) the name and position should be converted to a title case and the salary should be an absolute value and call the `update_employee()` function.
         
       - If the ID doesn't exists and the choice is 1, ask the user to enter the employee information(name, position, salary) and call the `add_employee()` function.
       - Any other entrance print "The ID is unavailable"
