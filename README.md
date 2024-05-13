@@ -54,4 +54,7 @@ Create an `Employee Management System` that allows users to perform various oper
      - If the choice is '5', call the `display_employees()` function to print the database.
      - If the choice is '6', print "Thank you for using the program. Goodbye!" and break out of the loop.
      - If the user enters an invalid choice, print "Invalid choice. Please try again."
+ 
+  
 
+![edp@4x](https://github.com/SAFCSP-Team/employee-database-project/assets/148013077/079a21ac-9c73-4e93-bb7a-081a7c666cb9)
