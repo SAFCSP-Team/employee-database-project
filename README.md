@@ -17,7 +17,7 @@ Create an `Employee Management System` that allows users to perform various oper
 - Create a function `add_employee` that takes the **database**(dictionary) and employee details **(employee ID, employee name , employee salary, employee position)** as parameters.
 - The **default position** is Trainee.
 - The employee `name` and `position` should be **converted to a title case** and the salary should be an absolute value.
-- The function should add the employee to the database using the **employee ID** as the key and store a tuple containing employee information **(employee name, employee position, employee salary ) as value**. Print a confirmation message and return the database.
+- The function should add the employee to the database using the **employee ID** as the key and store a tuple containing employee information **(employee name, employee salary, employee position ) as value**. Print a confirmation message and return the database.
 
 **Removing an Employee**
 - Create a function `remove_employee` that takes the **database**(dictionary) and the **employee ID** as parameters.
@@ -32,7 +32,7 @@ Create an `Employee Management System` that allows users to perform various oper
   
 **Displaying Employees**
 - Create a function `display_employees` that takes the **database**(dictionary) as a parameter.
-- Iterate over the database and print each employee's ID, name, position, and salary using (f-string) to create formatted output.
+- Iterate over the database and print each employee's ID, name, salary, and position using (f-string) to create formatted output.
      
 **User Interface**
 - Create a `while` loop to provide a menu-based interface for interacting with the system.
