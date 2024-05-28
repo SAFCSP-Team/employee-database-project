@@ -7,7 +7,7 @@ Create an `Employee Management System` that allows users to perform various oper
 ### Implementation
 **Data Container** 
 - Create a dictionary called `employee_database`.
-- The `employee_database`'s `key` is employee **ID**, and the `value` is a **tuple** (name, salary, position)
+- The `employee_database`'s `key` is employee **ID**, and the `value` is a **tuple** (name, salary, position).
      
 **Check if the ID exists**
 - Create a lambda function `id_exists` that takes the **database**(dictionary) and **employee ID** as parameters.
