@@ -6,7 +6,7 @@ Determine if the learner has completed all requirements for Python 101 and is re
 Create an `Employee Management System` that allows users to perform various operations such as adding employees, removing employees, searching for employees, updating employee data, and displaying all employees in the database.
 ### Implementation
 **Create a Dictionary** 
-- Create a dictionary called `employee_database`.
+- Create an empty dictionary called `employee_database`.
 - The `employee_database`'s `key` is employee **ID**, and the `value` is a **tuple** (name, salary, position).
      
 **Check if the employee exists by ID**
