@@ -14,7 +14,7 @@ Create an `Employee Management System` that allows users to perform various oper
 - The function should return true if the employee ID is in the database.  
 
 **Adding an Employee**
-- Create a function `add_employee` that takes the **database**(dictionary) and employee details **(employee ID, employee position, employee name , employee salary)** as parameters.
+- Create a function `add_employee` that takes the **database**(dictionary) and employee details **(employee ID, employee name , employee salary, employee position)** as parameters.
 - The **default position** is Trainee.
 - The employee `name` and `position` should be **converted to a title case** and the salary should be an absolute value.
 - The function should add the employee to the database using the **employee ID** as the key and store a tuple containing employee information **(employee name, employee position, employee salary ) as value**. Print a confirmation message and return the database.
