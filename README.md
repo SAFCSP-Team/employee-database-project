@@ -7,7 +7,7 @@ Create an `Employee Management System` that allows users to perform various oper
 ### Implementation
 **Data Container** 
 - The employee data should be stored in a dictionary `employee_database`.
-- The `employee_database` should use the employee **ID** as the `key` and store **employee information in a tuple** (employee position, employee name, employee salary) as `value`.
+- The `employee_database` should use the employee **ID** as the `key` and store **employee information in a tuple** (employee name, employee salary, employee position) as `value`.
      
 **Check if the ID exists**
 - Create a lambda function `id_exists` that takes the **database**(dictionary) and **employee ID** as parameters.
