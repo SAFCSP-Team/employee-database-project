@@ -9,7 +9,7 @@ Create an `Employee Management System` that allows users to perform various oper
 - Create a dictionary called `employee_database`.
 - The `employee_database`'s `key` is employee **ID**, and the `value` is a **tuple** (name, salary, position).
      
-**Check if the ID exists**
+**Check if the employee exists by ID**
 - Create a lambda function called `id_exists` that takes the `employee_database`(dictionary) and **employee ID** as parameters.
 - The function should return **true** if the employee ID is **in** the `employee_database`.  
 
