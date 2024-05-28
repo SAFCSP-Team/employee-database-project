@@ -14,25 +14,27 @@ Create an `Employee Management System` that allows users to perform various oper
 - The function should return **true** if the employee ID is **in** the `employee_database`.  
 
 **Adding an Employee**
-- Create a function `add_employee` that takes the **database**(dictionary) and employee details **(employee ID, employee name , employee salary, employee position)** as parameters.
-- The **default position** is Trainee.
+- Create a function `add_employee` that takes the `employee_database` and employee details **(employee ID, employee name , employee salary, employee position)** as parameters.
+- The **default value for parameter position** is Trainee.
 - The employee `name` and `position` should be **converted to a title case** and the salary should be an absolute value.
-- The function should add the employee to the database using the **employee ID** as the key and store a tuple containing employee information **(employee name, employee salary, employee position ) as value**. Print a confirmation message and return the database.
+- The function should add the employee to the `employee_database`(dictionary) using the **employee ID** as the key and store a tuple containing employee information **(employee name, employee salary, employee position ) as value**.
+- Print a confirmation message and return the `employee_database`.
 
 **Removing an Employee**
-- Create a function `remove_employee` that takes the **database**(dictionary) and the **employee ID** as parameters.
-- Remove the employee from the database, print a confirmation message, and return the database.
+- Create a function `remove_employee` that takes the `employee_database`(dictionary) and the **employee ID** as parameters.
+- Remove the employee from the `employee_database`.
+- Print a confirmation message, and return the `employee_database`.
         
 **Updating Employee Data**
-- Create a function `update_employee` that takes the **database**(dictionary), **employee ID**, **new name**,**new position** ,and **new salary** as parameters.
-- Create a list`new_data` containing the new name, new position, and new salary.
+- Create a function `update_employee` that takes the `employee_database`, **employee ID**, **new name**,**new position** ,and **new salary** as parameters.
+- Create a list called `new_data` that takes the new name, new position, and new salary.
 - Convert the `new_data` to a tuple.
-- Using the **employee ID**(key) to update the employee's information by assigning the tuple.
+- Use the **employee ID**(key) to update the employee's information by assigning the `new_data`tuple.
 - Print a confirmation message and return the database.
   
 **Displaying Employees**
-- Create a function `display_employees` that takes the **database**(dictionary) as a parameter.
-- Iterate over the database and print each employee's ID, name, salary, and position using (f-string) to create formatted output.
+- Create a function `display_employees` that takes the `employee_database`(dictionary) as a parameter.
+- Iterate over the `employee_database` and print each employee's ID, name, salary, and position using (f-string) to create formatted output.
      
 **User Interface**
 - Create a `while` loop to provide a menu-based interface for interacting with the system.
@@ -43,7 +45,7 @@ Create an `Employee Management System` that allows users to perform various oper
             
                **a.** If the choice is '2', call the `remove_employee()` function, using keyword arguments.
             
-               **b.** If the choice is '3', create a tuple containing the information of the employee ID in the database and print the data.
+               **b.** If the choice is '3', create a tuple containing the information of the employee ID in the `employee_database` and print the data.
             
                **c.** If the choice is '4', ask the user to enter the employee information(name, position, salary) the name and position should be converted to a title case, and the salary should be an absolute value and call the `update_employee()` function.
      
@@ -51,7 +53,7 @@ Create an `Employee Management System` that allows users to perform various oper
        
           - Any other entrance print "The ID is unavailable"
 
-     - If the choice is '5', call the `display_employees()` function to print the database.
+     - If the choice is '5', call the `display_employees()` function to print the `employee_database`.
      - If the choice is '6', print "Thank you for using the program. Goodbye!" and break out of the loop.
      - If the user enters an invalid choice, print "Invalid choice. Please try again."
  
