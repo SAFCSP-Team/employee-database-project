@@ -1,4 +1,4 @@
-e## Employee Database Project
+## Employee Database Project
 
 ### Objective 
 Determine if the learner has completed all requirements for Python 101 and is ready to progress to a higher level by successfully building a robust application.
