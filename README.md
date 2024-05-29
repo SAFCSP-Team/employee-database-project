@@ -49,9 +49,9 @@ Create an `Employee Management System` that allows users to perform various oper
             
                **c.** If the choice is '4', ask the user to enter the employee information(name, position, salary) the name and position should be converted to a title case, and the salary should be an absolute value and call the `update_employee()` function.
      
-          - If the ID doesn't exist and the choice is 1, ask the user to enter the employee information(name, position, salary) and call the `add_employee()` function.
+          - If the ID doesn't exist and the choice is 1, ask the user to enter the employee information(name, salary, position) and call the `add_employee()` function.
        
-          - Any other entrance print "The ID is unavailable"
+          - Any other entrance print "The ID is exists"
 
      - If the choice is '5', call the `display_employees()` function to print the `employee_database`.
      - If the choice is '6', print "Thank you for using the program. Goodbye!" and break out of the loop.
