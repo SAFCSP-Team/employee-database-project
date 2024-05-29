@@ -1,4 +1,4 @@
-## Employee Database Project
+e## Employee Database Project
 
 ### Objective 
 Determine if the learner has completed all requirements for Python 101 and is ready to progress to a higher level by successfully building a robust application.
@@ -14,7 +14,7 @@ Create an `Employee Management System` that allows users to perform various oper
 - The function should return **true** if the employee ID is **in** the `employee_database`.  
 
 **Adding an Employee**
-- Create a function `add_employee` that takes the `employee_database` and employee details **(employee ID, employee name , employee salary, employee position)** as parameters.
+- Create a function `add_employee` that takes the `employee_database` and employee details **(`employee_database`(dictionary), employee ID, employee name , employee salary, employee position)** as parameters.
 - The **default value for parameter position** is Trainee.
 - The employee `name` and `position` should be **converted to a title case** and the salary should be an absolute value.
 - The function should add the employee to the `employee_database`(dictionary) using the **employee ID** as the key and store a tuple containing employee information **(employee name, employee salary, employee position ) as value**.
